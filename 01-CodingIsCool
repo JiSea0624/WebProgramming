@@ -1,0 +1,2 @@
+title = "Coding Is Cool"
+print(f"{title}")
