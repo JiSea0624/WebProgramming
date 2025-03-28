@@ -1,3 +1,10 @@
+/* General body styling */
+body {
+  margin: 100px auto;
+  width: max-content;
+}
+
+/* General style for the divs */
 div {
   display: inline-block;
   font-family: sans-serif;
@@ -10,16 +17,19 @@ div {
   height: 200px;
 }
 
+/* General style for the 1st div */
 div.a {
     border-color: #8b2ae1;
     box-shadow: 10px 10px 10px #fd1415;
 }
 
+/* General style for the 2nd div */
 div.b {
     border-color: #03fe03;
     box-shadow: 10px 10px 10px black inset;
 }
 
+/* General style for the 3rd div */
 div.c {
     outline: 8px solid orange; /* First layer */
   outline-offset: -4px;
@@ -27,12 +37,8 @@ div.c {
     border-radius: 20px;
 }
 
+/* General style for the 4th div */
 div.d {
     border-color: #b22323;
     text-shadow: 5px 5px 1px #000000;
-}
-
-body {
-  margin: 100px auto;
-  width: max-content;
 }
