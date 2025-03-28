@@ -1,0 +1,219 @@
+header {
+    background-color: #a4adff;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial;
+    font-size: 400;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #000000;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+.navbar {
+    background-color: #4954b5;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px 0px; 
+    margin-top: 5px;
+    top: 0;
+}
+  
+.navbar a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color;
+}
+
+nav li a:hover {
+    color: #a4adff;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1em auto;
+    padding: 1em;
+    max-width: 1300px;
+}
+
+.calendar {
+    width: 90%;
+    max-width: 815px;
+    padding: 20px;
+    margin-bottom: 15px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4954b5;
+    color: white;
+    padding: 10px 15px;
+}
+
+.calendar-header h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.calendar-header button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.calendar-header button:hover {
+    color: #a4adff;
+}
+
+.day-names {
+    display: flex;
+    background-color: #ddd;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+.day-names div {
+    flex: 1;
+    padding: 10px 0;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+
+.day-names div:last-child {
+    border-right: none;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    background-color: #fff;
+}
+
+.days div {
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.current-month {
+    background-color: #f9f9f9;
+}
+
+.prev-month, .next-month {
+    background-color: #eee;
+    color: #999;
+}
+
+h2 {
+    color: #4954b5;
+}
+
+.border {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 15px;
+    width: 380px;
+    height: 455px;
+
+    p.a {
+        background-color: #dfe2ff;
+        border-left: 4px solid #a4adff;
+        font-size: 16px;
+        font-family: Arial;
+        padding: 1em;
+        margin: 5px;
+        width: 330px;
+        overflow-x: auto;
+        white-space: pre-wrap;
+    }
+}
+
+.border-remind, .border-goal {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 15px;
+    width: 380px;
+    height: 200px;
+
+    p.a {
+        background-color: #dfe2ff;
+        border-left: 4px solid #a4adff;
+        font-size: 16px;
+        font-family: Arial;
+        padding: 1em;
+        margin: 5px;
+        width: 330px;
+        overflow-x: auto;
+        white-space: pre-wrap;
+    }
+
+    img {
+        width: 380px;
+        height: 125px;
+    }
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 0.75em;
+    margin-top: 1em;
+    background-color: #a4adff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4954b5;
+}
+
+footer {
+    text-align: center;
+    padding: 2px;
+    background-color: #a4adff;
+    color: white;
+}
