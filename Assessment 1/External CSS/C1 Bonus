@@ -7,7 +7,7 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* General body styling */
+/* General body styling */ 
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
