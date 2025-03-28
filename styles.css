@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 2em;
+    font-family: Arial;
+    background-image: url(https://st.depositphotos.com/3008028/3752/i/450/depositphotos_37527459-stock-illustration-grunge-texture-distressed-funky-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1700px;
+}
+img {
+    width: 600px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.no-border {
+    border: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p, ol, ul, pre {
+    font-size: 18px;
+}
+
+.center {
+    margin: auto;
+    width: auto;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    font-size: 18px;
+}
+
+th {
+    font-size: 22px;
+}
+
+td {
+    text-align: center;
+}
+
+aside {
+    color: #FFFFFF;
+    width: 40%;
+    padding-left: 10px;
+    margin-top: 60px;
+    float: right;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.button1 {background-color: #6a6363;}
+.button2 {background-color: #6a6363;} 
+
+.button1:hover {
+    background-color: #3d3939;
+    color: white;
+}
+
+.button2:hover {
+    background-color: #3d3939;
+    color: white;
+}
