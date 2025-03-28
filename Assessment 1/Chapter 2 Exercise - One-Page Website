@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Use meta to provides information about the webpage to browsers and search engines -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Create a title for the website name when run -->
+    <title>Chapter 2 Exercise - One-Page Website</title>
+    <!-- Link the External Stylesheet to your html file -->
+    <link rel="stylesheet" type="text/css" href="styles2.css">
+</head>
+<body>
+    <header>
+        <!-- Put the title of the website in h1 -->
+        <h1>Perfect Marriage Revenge / Standard Procedure of Perfect Marriage</h1>
+        <!-- Create the navigator bar -->
+        <nav class="menu">
+            <a href="#plot">Plot</a>
+            <a href="#creative_team">Creative Team</a>
+            <a href="#key_information">Key Information</a>
+            <a href="#characters">Characters</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#links">Links</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <!-- Input id for the navigator bar -->
+            <h2 id="plot">Plot</h2>
+            <pre>
+<!-- Type your information -->
+The Hanwool Financial Group's owners, Han Jin-Woong (Jeon No-Min) and his wife, Lee Jung-Hye (Lee Min-Young), adopted Han Yi-Joo (Jung Yoo-Min) as their daughter, and growing up, she learned painting. However, neither of her parents nor her younger sister Han Yoo-Ra (Jin Ji-Hee) loved her. After Han Yi-Joo's marriage to Jung Se-Hyeok (Oh Seung-Yun), she finds out that her husband just married her to be nearer to her sister, Han Yoo-Ra, because he loves her. Han Yi-Joo died in a vehicle accident but was given another chance to change her destiny.
+
+To change her fate and take revenge on her family, she breaks off her engagement and then approaches Seo Do-Guk (Sung Hoon), whom her younger sister Han Yoo-Ra wants to marry. Seo Do-Guk is the grandson of the Taeja Group’s founder. Both agreed to enter a contract marriage, but Seo Do-Guk wants the contract marriage to become a real marriage.
+            </pre>
+        </section>
+        <section>
+            <!-- Input id for the navigator bar -->
+            <h2 id="creative_team">Creative Team</h2>
+            <pre>
+<!-- Type your information -->
+<b>Director:</b> Oh Sang-Won
+<b>Writer:</b> Young (webcomic), Lee Beom-Bae (webcomic), Jerryball (webcomic), Im Seo-Ra
+            </pre>
+        </section>
+        <section>
+            <!-- Input id for the navigator bar -->
+            <h2 id="key_information">Key Information</h2>
+            <pre>
+<!-- Type your information -->    
+Perfect Marriage Revenge / Standard Procedure of Perfect Marriage is a 2023 South Korean television series and was directed by Oh Sang-Won, based on a webcomic that was published by Young and Lee Boem-Bae and illustrated by Jerryball that was published in Naver on July 14, 2021.
+            </pre>
+        </section>
+        <section>
+            <!-- Input id for the navigator bar -->
+            <h2 id="characters">Characters</h2>
+            <pre>
+<!-- Type your information -->
+<b>Seo Do-Guk's Family (Taeja Group):</b>
+    Sung Hoon as Seo Do-guk
+    Kang Shin-hyo as Seo Jung-wook
+    Ban Hyo-Jung as Lee Tae-Ja
+    Kim Eung-Soo as Seo Young-Kyun
+    Lee Mi-Sook as Cha Yeon-Hwa
+    Oh Ha-Nee as Seo Do-Na
+    Lee Myung-Hoon as Byeon Jae-Ho
+    Lee Da-Hae as An Soo-Jin
+    Kang Ji-Yong as Seo Do-Guk (child)
+    
+<b>Han Yi-Joo's Family (Hanwool Finance Group)</b>
+    Jung Yoo-min as Han Yi-joo
+    Lee Min-Young as Lee Jung-Hye
+    Jeon No-Min as Han Jin-Woong
+    Jin Ji-hee as Han Yoo-ra
+    Lee Byung-Joon as Han Woon-Jae
+    Kwon Dan-A as Han Yi-Joo (child)
+    Kim Si-On as Han Yoo-Ra (child)
+    
+<b>Yu Se-Hyeok's Family</b>
+    Oh Seung-yoon as Yoo Se-hyuk
+    Kim Ye-Ryeong as Choi Jae-Sook	
+    Song Sui as Yu Se-Hee
+            
+<b>Gallery The Han</b>
+    Do Yu as Kim Jae-Won
+    Yi Chae-Woon as Oh Jang-Mi	
+    Kim Mi-Ra and Kim Joo-A as auction-goer
+    Na Ho-Won and Shin Min-Soo as appraiser (ep.1)
+    
+<b>Jamie's Cooking Class</b>
+    Jin Hee-Kyung as Jamie
+    Park Seon-Ok as Goo Bong-Ja	
+    Yook Mi-Ra as student
+    
+<b>H-terior</b>
+    Lee Won-Hee as Kim Sun-Gwon
+    Moon Hyun-Ju as Kang Shi-A
+    Lee Gi-Na as Seol Soo-Mi
+            </pre>
+        </section>
+        <section>
+            <!-- Input id for the navigator bar -->
+            <h2 id="reviews">Reviews</h2>
+            <pre>
+<!-- Type your information -->
+<b>adrithasage. Rate 7/10</b>
+
+<b>Very Good but not as good as the high ratings suggest (8 December 2023)</b>
+This is fantasy romance drama with a great lead in Jung Yoo-Min. She's incredibly stunning her presence of camera always draws you in. Her performance also makes you easily fall for her and route for her. You could feel the wave of emotions she goes through. You smile,cry and laugh with her through it all. The main lead guy is a great compliment to her as they had great chemistry.
+The show is very well made and unlike most K-dramas it doesn't drag the plot. It moves very fast to its conclusion which makes this a good drama to watch. It's not perfect but the supporting cast do a great job as they played their roles well. You know they're good when all they do is leave a bitter taste in your mouth when they're on screen.
+I liked it very much although the last episode was underwhelming. It's always like this with most K-dramas they usually don't know how to close out shows. They usually end up doing the most but it wasn't that bad. Nevertheless it's a great series but definitely is a bit overrated by many viewers like many other shows.
+            </pre>
+            <pre>
+
+<b>edwbxjlow. Rate 10/10</b>
+
+<b>RARELY A SERIES EXCITES ME AS THIS ONE (25 November 2023)</b>
+From the very first episode, I am becoming immersed in the drama and feeling excited every second. Before I start watching an episode, when I hear that it is that day, my day fills up with happiness and excitement. I just love this show so much, even though the plot has been very overused in Webtoons, this is the first TV series that uses this plot as far as I can remember. The webtoons were fun and entertaining, even though I have not read the webtoon of this, I am very satisfied with how this series is turning out. The reviews speak for itself. I highly recommend this show to people who love romance. The main actress's expressions are just so beautiful, you feel all the pain, all the tears. They are a very beautiful couple.
+            </pre>
+        </section>
+        <section>
+            <!-- Input id for the navigator bar -->
+            <h2 id="links">Links</h3>
+                <!-- Type your information -->
+                <a href="https://www.youtube.com/watch?v=D3ojNqT-kgQ" target="_blank" class="button button1">Youtube Trailer</a>
+                <a href="https://asianwiki.com/Perfect_Marriage_Revenge" target="_blank" class="button button2">Official Website of Informations</a>
+                <!-- Optional to include the button for the bonus -->
+                <a href="c:\Users\LJ\Desktop\HTML\Assessment 1\C2.B2.html" target="_blank" class="button button3">Multi-Page Website (Bonus)</a>
+        </section>
+    </main> 
+    <footer>
+        <p>&copy; 2023 Perfect Marriage Revenge / Standard Procedure of Perfect Marriage</p>
+    </footer>
+</body>
+</html>
