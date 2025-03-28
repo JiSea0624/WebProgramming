@@ -1,3 +1,4 @@
+/* Style for the header */
 header {
     background-color: #a4adff;
     color: white;
@@ -5,6 +6,7 @@ header {
     text-align: center;
 }
 
+/* General body styling */
 body {
     font-family: Arial;
     font-size: 400;
@@ -15,10 +17,12 @@ body {
     color: #000000;
 }
 
-header h1 {
+/* Style for the header */
+header, h1 {
     font-size: 2rem;
 }
 
+/* Style for the nav bar */
 .navbar {
     background-color: #4954b5;
     color: #fff;
@@ -28,7 +32,8 @@ header h1 {
     margin-top: 5px;
     top: 0;
 }
-  
+
+/* Style for the information inside the nav bar */
 .navbar a {
     color: #fff;
     font-size: 16px;
@@ -36,10 +41,12 @@ header h1 {
     font-weight: bold;
 }
 
+/* Removes the lists style */
 li {
     list-style: none;
 }
 
+/* Style for the information inside the nav bar */
 nav li a {
     color: white;
     text-decoration: none;
@@ -47,10 +54,12 @@ nav li a {
     transition: color;
 }
 
+/* Effect of the buttons */
 nav li a:hover {
     color: #a4adff;
 }
 
+/* Style for the main */
 main {
     display: flex;
     flex-wrap: wrap;
@@ -60,6 +69,7 @@ main {
     max-width: 1300px;
 }
 
+/* Style for the calendar */
 .calendar {
     width: 90%;
     max-width: 815px;
@@ -72,6 +82,7 @@ main {
     border: 1px solid #ddd;
 }
 
+/* Style for the header in the calendar */
 .calendar-header {
     display: flex;
     justify-content: space-between;
@@ -81,6 +92,7 @@ main {
     padding: 10px 15px;
 }
 
+/* Style for the second header in the calendar */
 .calendar-header h2 {
     font-size: 1.5rem;
     text-align: center;
@@ -88,6 +100,7 @@ main {
     margin: 0;
 }
 
+/* Style for the calendar's button */
 .calendar-header button {
     background: none;
     border: none;
@@ -96,10 +109,12 @@ main {
     cursor: pointer;
 }
 
+/* Effect of the calendar's buttons */
 .calendar-header button:hover {
     color: #a4adff;
 }
 
+/* Days section in the calendar */
 .day-names {
     display: flex;
     background-color: #ddd;
@@ -107,6 +122,7 @@ main {
     border-bottom: 1px solid #ccc;
 }
 
+/* Individual days in the calendar */
 .day-names div {
     flex: 1;
     padding: 10px 0;
@@ -118,6 +134,7 @@ main {
     border-right: none;
 }
 
+/* Style for the calendar's grid */
 .days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -125,6 +142,7 @@ main {
     background-color: #fff;
 }
 
+/* General styling for the days */
 .days div {
     padding: 10px 0;
     text-align: center;
@@ -140,10 +158,12 @@ main {
     color: #999;
 }
 
+/* Style for the header */
 h2 {
     color: #4954b5;
 }
 
+/* Style for the borders in the study planner */
 .border {
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -153,6 +173,7 @@ h2 {
     width: 380px;
     height: 455px;
 
+    /* Style for the sentences */
     p.a {
         background-color: #dfe2ff;
         border-left: 4px solid #a4adff;
@@ -166,6 +187,7 @@ h2 {
     }
 }
 
+/* Style for the borders in the study planner */
 .border-remind, .border-goal {
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -175,6 +197,7 @@ h2 {
     width: 380px;
     height: 200px;
 
+    /* Style for the sentence */
     p.a {
         background-color: #dfe2ff;
         border-left: 4px solid #a4adff;
@@ -187,12 +210,14 @@ h2 {
         white-space: pre-wrap;
     }
 
+    /* Style for the image */
     img {
         width: 380px;
         height: 125px;
     }
 }
 
+/* Style for the button */
 button {
     display: block;
     width: 100%;
@@ -207,10 +232,12 @@ button {
     transition: background-color 0.3s;
 }
 
+/* Effect of the buttons */
 button:hover {
     background-color: #4954b5;
 }
 
+/* Style for the footer */
 footer {
     text-align: center;
     padding: 2px;
