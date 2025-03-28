@@ -1,19 +1,23 @@
+/* General body styling */
 body {
     font-family: Arial;
     text-align: center;
     position: center;
 }
 
+/* Style for the image */
 img {
     max-width: 100%;
     height: auto;
 }
 
+/* Style for the copyright */
 .copyright-info {
     font-size: 10px;
     color: rgb(128, 127, 127)
 }
 
+/* Style for the button */
 .button {
     border: none;
     color: white;
@@ -26,8 +30,12 @@ img {
     cursor: pointer;
   }
 
-.button1 {background-color: #6a6363;}
+/* Color of the buttons */
+.button1 {
+    background-color: #6a6363;
+}
 
+/* Effect of the buttons */
 .button1:hover {
     background-color: #3d3939;
     color: white;
