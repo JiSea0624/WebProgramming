@@ -1,3 +1,4 @@
+/* General body styling */
 body {
     margin: 0;
     padding: 2em;
@@ -7,6 +8,8 @@ body {
     background-attachment: fixed;
     background-size: 1700px;
 }
+
+/* Style for the image */
 img {
     width: 600px;
     height: 350px;
@@ -16,23 +19,28 @@ img {
     width: 50%;
 }
 
+/* Optional to remove the border if you don't want it */
 .no-border {
     border: none;
 }
 
+/* Style for header */
 h1 {
     text-align: center;
     font-size: 50px;
 }
 
+/* Style for sub header */
 h2 {
     font-size: 30px;
 }
 
+/* Style for sentences */
 p, ol, ul, pre {
     font-size: 18px;
 }
 
+/* Style for the table container */
 .center {
     margin: auto;
     width: auto;
@@ -40,6 +48,7 @@ p, ol, ul, pre {
     padding: 5px;
 }
 
+/* Style for the the table */
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -47,14 +56,17 @@ table, th, td {
     font-size: 18px;
 }
 
+/* Style for the header in the table */
 th {
     font-size: 22px;
 }
 
+/* Style for the alignment of the words inside the table */
 td {
     text-align: center;
 }
 
+/* Style for the video beside the walkthrough  */
 aside {
     color: #FFFFFF;
     width: 40%;
@@ -63,6 +75,7 @@ aside {
     float: right;
 }
 
+/* Style for the button */
 .button {
     border: none;
     color: white;
@@ -76,15 +89,12 @@ aside {
     cursor: pointer;
   }
 
+/* Color of the buttons */
 .button1 {background-color: #6a6363;}
 .button2 {background-color: #6a6363;} 
 
-.button1:hover {
-    background-color: #3d3939;
-    color: white;
-}
-
-.button2:hover {
+/* Effect of the buttons */
+.button1:hover, .button2:hover {
     background-color: #3d3939;
     color: white;
 }
