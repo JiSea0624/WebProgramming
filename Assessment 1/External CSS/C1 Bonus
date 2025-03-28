@@ -1,3 +1,13 @@
+/* Style for the header */
+header {
+    background-color: #536dbc;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* General body styling */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -7,14 +17,7 @@ body {
     color: #333;
 }
 
-header {
-    background-color: #536dbc;
-    color: white;
-    padding: 1em 0;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
+/* Style for the footer */
 footer {
     background-color: #333;
     color: white;
@@ -23,15 +26,18 @@ footer {
     margin-top: 2em;
 }
 
+/* Style for the sub headers */
 h2, h3 {
     margin-top: 1em;
     color: black;
 }
 
+/* Style for the main */
 main {
     padding: 2em;
 }
 
+/* Style for the sentences */
 pre {
     background-color: #eef;
     border-left: 4px solid #4c77af;
@@ -40,11 +46,13 @@ pre {
     white-space: pre-wrap;
 }
 
+/* Style for the examples */
 code {
     padding: 0.2em 0.4em;
     border-radius: 4px;
 }
 
+/* Size for the video */
 video {
     width: 500px;
     height: 400px;
