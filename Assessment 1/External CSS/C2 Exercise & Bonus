@@ -1,3 +1,4 @@
+/* General body styling */
 body {
     font-family: Arial;
     line-height: 1.6;
@@ -7,6 +8,7 @@ body {
     color: #333;
 }
 
+/* Style for the sentence */
 pre {
     font-size: 15px;
     font-family: Arial;
@@ -19,6 +21,7 @@ pre {
     white-space: pre-wrap;
 }
 
+/* Style for the nav bar */
 .menu {
   background-color: #c21b1b;
   color: #fff;
@@ -30,6 +33,7 @@ pre {
   top: 0;
 }
 
+/* Style for the information inside the nav bar */
 .menu a {
   color: #fff;
   text-decoration: none;
@@ -38,15 +42,18 @@ pre {
   font-weight: bold;
 }
 
+/* Effects for the information inside the nav bar */
 .menu a:hover {
   background-color: #710c0c;
   color: white;
 }
 
+/* Style for the header */
 h1 {
     text-align: center;
 }
 
+/* Style for the button */
 .button {
     border: none;
     color: white;
@@ -59,21 +66,13 @@ h1 {
     cursor: pointer;
   }
 
-.button1 {background-color: #c21b1b;}
-.button2 {background-color: #c21b1b;} 
-.button3 {background-color: #c21b1b;} 
-
-.button1:hover {
-    background-color: #710c0c;
-    color: white;
+/* Color of the buttons */
+.button1, .button2, .button3 {
+  background-color: #c21b1b;
 }
 
-.button2:hover {
+/* Effect of the buttons */
+.button1:hover, .button2:hover, .button3:hover {
     background-color: #710c0c;
     color: white;
-}
-
-.button3:hover {
-  background-color: #710c0c;
-  color: white;
 }
