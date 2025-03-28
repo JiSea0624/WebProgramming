@@ -1,0 +1,79 @@
+body {
+    font-family: Arial;
+    line-height: 1.6;
+    margin: 0;
+    padding: 2em;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+pre {
+    font-size: 15px;
+    font-family: Arial;
+    background-color: rgb(255, 238, 238);
+    border: 4px solid #af4c4c;
+    border-style: double;
+    border-radius: 5px;
+    padding: 1em;
+    overflow-x: auto;
+    white-space: pre-wrap;
+}
+
+.menu {
+  background-color: #c21b1b;
+  color: #fff;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  position: sticky;
+  top: 0;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 15px; 
+  font-weight: bold;
+}
+
+.menu a:hover {
+  background-color: #710c0c;
+  color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.button1 {background-color: #c21b1b;}
+.button2 {background-color: #c21b1b;} 
+.button3 {background-color: #c21b1b;} 
+
+.button1:hover {
+    background-color: #710c0c;
+    color: white;
+}
+
+.button2:hover {
+    background-color: #710c0c;
+    color: white;
+}
+
+.button3:hover {
+  background-color: #710c0c;
+  color: white;
+}
