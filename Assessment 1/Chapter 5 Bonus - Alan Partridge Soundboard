@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Use meta to sets the character & ensures that all devices will be rendered-->
+    <!-- Use meta to provides information about the webpage to browsers and search engines -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,6 +16,7 @@
             <h1>Audio Sampler</h1>
         </header>
     <main>
+        <!-- First section, first row -->
         <section>
             <article class="container">
                 <!-- Number 10 -->
@@ -24,7 +25,7 @@
                 <div class="title"><b>Ah-Ha</b></div>
                 <div class="duration">1.4</div>
                 <!-- Link the Javascript File to the html File -->
-                <script src="c:\Users\LJ\Desktop\HTML\Assessment 1\index.js"></script>
+                <script src="c:\Users\LJ\Desktop\HTML\Assessment 1\C5 Bonus\index.1.js"></script>
                 </div>
                   
                 <!-- Number 11 -->
@@ -42,6 +43,7 @@
                 </div>
             </article>
         </section>
+        <!-- Second section, second row -->
         <section>
             <article class="container">
                 <!-- Number 13 -->
@@ -66,6 +68,7 @@
                 </div>
             </article>
         </section>
+        <!-- Third section, third row -->
         <section>
             <article class="container">
                 <!-- Number 16 -->
