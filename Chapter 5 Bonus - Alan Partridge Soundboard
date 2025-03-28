@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Use meta to provides information about the webpage to browsers and search engines -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Create a title for the website name when run -->
+    <title>Chapter 5 Bonus - Alan Partridge Soundboard</title>
+    <!-- Link the External Stylesheet to your HTML File -->
+    <link rel="stylesheet" href="styles5.1.css" type="text/css" />
+</head>
+<body>
+    <header>
+            <!-- Use 'h1' to indicate that the heading is the most important heading you are going to use -->
+            <h1>Audio Sampler</h1>
+        </header>
+    <main>
+        <section>
+            <article class="container">
+                <!-- Number 10 -->
+                <div class="border" data-sample="sample1">
+                <div class="number">10.</div>
+                <div class="title"><b>Ah-Ha</b></div>
+                <div class="duration">1.4</div>
+                <!-- Link the Javascript File to the html File -->
+                <script src="c:\Users\LJ\Desktop\HTML\Assessment 1\index.js"></script>
+                </div>
+                  
+                <!-- Number 11 -->
+                <div class="border" data-sample="sample2">
+                <div class="number">11.</div>
+                <div class="title"><b>Dan</b></div>
+                <div class="duration">0.5</div>
+                </div>
+
+                <!-- Number 12 -->
+                <div class="border" data-sample="sample3">
+                <div class="number">12.</div>
+                <div class="title"><b>Back of the net</b></div>
+                <div class="duration">1.02</div>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article class="container">
+                <!-- Number 13 -->
+                <div class="border" data-sample="sample4">
+                <div class="number">13.</div>
+                <div class="title"><b>Bang out of order</b></div>
+                <div class="duration">1.38</div>
+                </div>
+
+                <!-- Number 14 -->
+                <div class="border" data-sample="sample5">
+                <div class="number">14.</div>
+                <div class="title"><b>Jurassic Park</b></div>
+                <div class="duration">1.49</div>
+                </div>
+
+                <!-- Number 15 -->
+                <div class="border" data-sample="sample6">
+                <div class="number">15.</div>
+                <div class="title"><b>Smell my cheese</b></div>
+                <div class="duration">1.91</div>
+                </div>
+            </article>
+        </section>
+        <section>
+            <article class="container">
+                <!-- Number 16 -->
+                <div class="border" data-sample="sample7">
+                <div class="number">16.</div>
+                <div class="title"><b>Goal</b></div>
+                <div class="duration">1.49</div>
+                </div>
+
+                <!-- Number 17 -->
+                <div class="border" data-sample="sample8">
+                <div class="number">17.</div>
+                <div class="title"><b>Kiss my face</b></div>
+                <div class="duration">1.07</div>
+                </div>
+
+                <!-- Number 18 -->
+                <div class="border" data-sample="sample9">
+                <div class="number">18.</div>
+                <div class="title"><b>Hello Partridge</b></div>
+                <div class="duration">2.25</div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Alan Partridge Soundboard</p>
+    </footer>
+</body>
+</html>
