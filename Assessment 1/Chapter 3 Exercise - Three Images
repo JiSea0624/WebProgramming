@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Use meta to provides information about the webpage to browsers and search engines -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Create a title for the website name when run -->
+    <title>Chapter 3 Exercise - Three Images</title>
+    <!-- Link the External Stylesheet to your html file -->
+    <link rel="stylesheet" href="styles3.css" type="text/css" />
+</head>
+<body>
+    <!-- Use 'h1' to indicate that the heading is the most important heading you are going to use -->
+    <h1>Loneliness</h1>
+
+    <!-- Image 1 with copyright -->
+    <img src="https://i.pinimg.com/736x/e1/b6/1e/e1b61e693884193515a20ba68b422ab7.jpg" alt="hangingoutwiththefriendsineverhad." style="filter: hue-rotate(30deg)">
+    <p class="copyright-info">Image source: Pinterest. © Philosophy Of Insanity, All Rights Reserved.</p>
+
+    <!-- Image 2 with copyright -->
+    <img src="https://i.pinimg.com/474x/50/e3/a8/50e3a89c57d578c3e373a0054cca67bf.jpg" alt="Running Alone" style="filter: grayscale(100%)">
+    <p class="copyright-info">Image source: Pinterest. © FireproOf, All Rights Reserved.</p>
+
+    <!-- Image 3 with copyright -->
+    <img src="https://i.pinimg.com/236x/3a/79/6f/3a796fbce27cc1d04a0af2651f80f529.jpg" alt="Popular in badboy" style="filter: opacity(50%)">
+    <p class="copyright-info">Image source: Pinterest. © Wattpad, All Rights Reserved.</p>
+        
+    <!-- Optional to include the button for the bonus -->
+    <a href="c:\Users\LJ\Desktop\HTML\Assessment 1\C3.B3.html" target="_blank" class="button button1">Styling Those Divs (Bonus)</a>
+</body>
+</html>
