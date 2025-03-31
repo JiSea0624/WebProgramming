@@ -10,7 +10,21 @@
     <!-- Link the External Stylesheet to your HTML File -->
     <link rel="stylesheet" href="styles5.1.css" type="text/css" />
 </head>
+
+<!-- Link the Javascript File to the html File -->
+<script src="index.js"></script>
+
 <body>
+    <!-- Optional to put before beginning -->
+    <div id="interaction-prompt" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); color: white; display: flex; align-items: center; justify-content: center; z-index: 1000;">
+        <p>Please click anywhere to enable audio playback.</p>
+    </div>
+    <!-- Interaction prompt -->
+    <script>
+        document.body.addEventListener('click', () => {
+            document.getElementById('interaction-prompt').style.display = 'none';
+        }, { once: true });
+    </script>
     <header>
             <!-- Use 'h1' to indicate that the heading is the most important heading you are going to use -->
             <h1>Audio Sampler</h1>
@@ -20,23 +34,24 @@
         <section>
             <article class="container">
                 <!-- Number 10 -->
-                <div class="border" data-sample="sample1">
+                <!-- Input sound & informations -->
+                <div class="border" data-sample="sample1" onmouseover="playSample('sample1')">
                 <div class="number">10.</div>
                 <div class="title"><b>Ah-Ha</b></div>
                 <div class="duration">1.4</div>
-                <!-- Link the Javascript File to the html File -->
-                <script src="c:\Users\LJ\Desktop\HTML\Assessment 1\C5 Bonus\index.1.js"></script>
                 </div>
                   
                 <!-- Number 11 -->
-                <div class="border" data-sample="sample2">
+                <!-- Input sound & informations -->
+                <div class="border" data-sample="sample2" onmouseover="playSample('sample2')">
                 <div class="number">11.</div>
                 <div class="title"><b>Dan</b></div>
                 <div class="duration">0.5</div>
                 </div>
 
                 <!-- Number 12 -->
-                <div class="border" data-sample="sample3">
+                <!-- Input sound & informations -->
+                <div class="border" data-sample="sample3" onmouseover="playSample('sample3')">
                 <div class="number">12.</div>
                 <div class="title"><b>Back of the net</b></div>
                 <div class="duration">1.02</div>
@@ -47,21 +62,24 @@
         <section>
             <article class="container">
                 <!-- Number 13 -->
-                <div class="border" data-sample="sample4">
+                <!-- Input sound & informations -->
+                <div class="border" data-sample="sample4" onmouseover="playSample('sample4')">
                 <div class="number">13.</div>
                 <div class="title"><b>Bang out of order</b></div>
                 <div class="duration">1.38</div>
                 </div>
 
                 <!-- Number 14 -->
-                <div class="border" data-sample="sample5">
+                <!-- Input sound & informations -->
+                <div class="border" data-sample="sample5" onmouseover="playSample('sample5')">
                 <div class="number">14.</div>
                 <div class="title"><b>Jurassic Park</b></div>
                 <div class="duration">1.49</div>
                 </div>
 
                 <!-- Number 15 -->
-                <div class="border" data-sample="sample6">
+                <!-- Input sound & informations -->
+                <div class="border" data-sample="sample6" onmouseover="playSample('sample6')">
                 <div class="number">15.</div>
                 <div class="title"><b>Smell my cheese</b></div>
                 <div class="duration">1.91</div>
@@ -72,21 +90,24 @@
         <section>
             <article class="container">
                 <!-- Number 16 -->
-                <div class="border" data-sample="sample7">
+                <!-- Input sound & informations -->
+                <div class="border" data-sample="sample7" onmouseover="playSample('sample7')">
                 <div class="number">16.</div>
                 <div class="title"><b>Goal</b></div>
                 <div class="duration">1.49</div>
                 </div>
 
                 <!-- Number 17 -->
-                <div class="border" data-sample="sample8">
+                <!-- Input sound & informations -->
+                <div class="border" data-sample="sample8" onmouseover="playSample('sample8')">
                 <div class="number">17.</div>
                 <div class="title"><b>Kiss my face</b></div>
                 <div class="duration">1.07</div>
                 </div>
 
                 <!-- Number 18 -->
-                <div class="border" data-sample="sample9">
+                <!-- Input sound & informations -->
+                <div class="border" data-sample="sample9" onmouseover="playSample('sample9')">
                 <div class="number">18.</div>
                 <div class="title"><b>Hello Partridge</b></div>
                 <div class="duration">2.25</div>
@@ -94,6 +115,7 @@
             </article>
         </section>
     </main>
+    <!-- Include footer -->
     <footer>
         <p>&copy; 2025 Alan Partridge Soundboard</p>
     </footer>
