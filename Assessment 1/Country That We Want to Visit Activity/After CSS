@@ -1,0 +1,119 @@
+body {
+    font-family: Times New Roman;
+    
+    text-align: justify;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: normal;
+    text-transform: capitalize;
+
+    font-family: Arial;
+    font-size: 15px;
+}
+
+header {
+    background: url("https://www.tauck.com/-/media/Tauck/Collection/Hero-Images/Collection_France_banner.jpg?h=817&w=1400&rev=968177884b914b75baac8c595f290832&hash=9BB161B473368CAC91EFBCF7CDD2D528") center / cover no-repeat fixed;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+
+.container1{
+    display: flex;
+}
+
+.text {
+    margin: 5%;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.img {
+    width:500px;
+    height: auto;
+    margin-top: 20%;
+}
+
+p {
+    text-align: center;
+}
+
+.container {
+    margin: 0px auto;
+    border: 2px solid black;
+}
+
+.paris {
+    background-image: url("https://img2.oastatic.com/img2/82573593/max/variant.jpg");
+    display: block;
+    width: auto;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black;
+    font-weight: bold;
+    padding: 200px;
+}
+
+.bordeaux {
+    background-image: url("https://www.franceguide.info/wp-content/uploads/sites/18/bordeaux-place-de-la-bourse-hd.jpg");
+    display: block;
+    width: auto;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black;
+    font-weight: bold;
+    padding: 200px;
+}
+
+.frenchalps {
+    background-image: url("https://www.inauvergnerhonealpes.com/wp-content/uploads/2022/03/thanh-nguyen-mont-blanc-tete-d-ane-1600x900.jpg");
+    display: block;
+    width: auto;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black;
+    font-weight: bold;
+    padding: 200px;
+}
+
+.eiffeltower {
+    background-image: url("https://db4cdc64.delivery.rocketcdn.me/wp-content/uploads/2023/03/Restaurants-in-Paris-with-a-view-of-the-Eiffel-Tower-2.jpg");
+    display: block;
+    width: auto;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black;
+    font-weight: bold;
+    padding: 200px;
+}
+
+.louvremuseum {
+    background-image: url("https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/l/o/louvre-museum-paris-big-bus-tours-jan-2017.jpg");
+    display: block;
+    width: auto;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black;
+    font-weight: bold;
+    padding: 200px;
+}
+
+.disneylandparis {
+    background-image: url("https://tower-tickets.com/wp-content/uploads/2022/05/disneyland-paris.jpg");
+    display: block;
+    width: auto;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px black;
+    font-weight: bold;
+    padding: 200px;
+}
