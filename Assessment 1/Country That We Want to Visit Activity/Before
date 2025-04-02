@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Starter Activity (Before)</title> 
+    <link rel="stylesheet" href="m3 styles.css" type="text/css" />
+</head>
+<body>
+    <header>
+        <h1>France</h1>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+                <a href="#Eiffel Tower">Eiffel Tower</a>
+                <a href="#Louvre Museum">Louvre Museum</a>
+                <a href="#Disneyland Paris">Disneyland Paris</a>
+            </div>
+        </div>
+
+        <nav class="menu">
+            <a href="#Eiffel Tower">Eiffel Tower</a>
+            <a href="#Louvre Museum">Louvre Museum</a>
+            <a href="#Disneyland Paris">Disneyland Paris</a>
+        </nav>
+    </header>
+    <p>France has long been considered an epicenter of high fashion, culture, art, and cuisine.</p>
+    <p>Paris, France, is widely regarded as one of the most romantic cities, and the history of the French people demonstrates their lasting influence on the Western world.</p>
+
+    <h2>Top 3 Destinations</h2>
+        <ol>
+            <li>Paris - "The City of Love"</li>
+            <li>Bordeaux - "A World Capital of Wine"</li>
+            <li>French Alps - "Numerous Spa Towns"</li>
+        </ol>
+    <h2>3 Fun Activities</h2>
+        <ul>
+            <li>Go to the Eiffel Tower</li>
+            <li>Visit the Louvre Museum</li>
+            <li>Have a date in Disneyland Paris</li>
+        </ul>
+    <h3><a href="https://parisjetaime.com/eng/" target="_blank" color="red">Official Tourism Website</a></h3>
+</body>
+</html>
