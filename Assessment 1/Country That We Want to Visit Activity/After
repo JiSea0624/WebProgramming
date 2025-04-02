@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Use meta to provides information about the webpage to browsers and search engines -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Create a title for the website name when run -->
+    <title>Starter Activity (After)</title>
+    <!-- Link the External Stylesheet to your HTML File -->
+    <link rel="stylesheet" href="M5.css" type="text/css" />
+</head>
+<body>
+    <header>
+        <h1>France</h1>
+    </header>
+    <div class="container1">
+        <img src="c:\Users\LJ\Desktop\HTML\Meetings\photo-1551866442-64e75e911c23-removebg-preview.png">
+        <div class="text">
+            <p>France has long been considered an epicenter of high fashion, culture, art, and cuisine.</p>
+            <p>Paris, France, is widely regarded as one of the most romantic cities, and the history of the French people demonstrates their lasting influence on the Western world.</p>
+        </div>
+    </div>
+
+    <h2>Top 3 Destinations</h2>
+        <div class="container">
+            <div class="paris">Paris - "The City of Love"</div>
+            <div class="bordeaux">Bordeaux - "A World Capital of Wine</div>
+            <div class="frenchalps">French Alps - "Numerous Spa Towns"</div>
+        </div>
+    <h2>3 Fun Activities</h2>
+        <div class="container">
+            <div class="eiffeltower">Go to the Eiffel Tower</div>
+            <div class="louvremuseum">Visit the Louvre Museum</div>
+            <div class="disneylandparis">Have a date in Disneyland Paris</div>
+        </div>
+    <h3><a href="https://parisjetaime.com/eng/" target="_blank" color="red">Official Tourism Website</a></h3>
+</body>
+</html>
