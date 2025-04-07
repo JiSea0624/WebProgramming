@@ -1,0 +1,76 @@
+/* Style for the header */
+header {
+    background-color: white;
+    color: rgb(240, 96, 120);
+    text-align: center;
+    text-decoration: none;
+    margin: 2em;
+}
+
+/* General body styling */
+body {
+    font-size: 400;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #8a8a8a;
+    color: #000000;
+}
+
+/* Style for the main */
+main {
+    padding: 2em;
+}
+
+/* Style for the header */
+h1 {
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+/* Style for the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+
+/* Style for the border */
+.border {
+    background: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 500px; 
+    text-align: center;
+    border: 5px solid black; 
+    margin: 10px
+}
+
+/* Effect of the border */
+.border:hover {
+    background-color: #3d3939;
+    color: white;
+}
+
+/* Style for the given number and title inside the container */
+.number, .title {
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+/* Style for the given duration */
+.duration {
+    color: gray;
+    font-size: 17px;
+}
+
+/* Style for the footer */
+footer {
+    background-color: rgb(240, 96, 120);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 0;
+    margin: 2em;
+}
