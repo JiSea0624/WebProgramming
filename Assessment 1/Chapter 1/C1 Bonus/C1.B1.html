@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Use meta to sets the character & ensures that all devices will be rendered-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Create a title for the website name when run -->
+    <title>Chapter 1 Bonus - HTML and CSS Resource Reference Guide</title>
+    <!-- Link the External Stylesheet to your html file -->
+    <link rel="stylesheet" type="text/css" href="styles1.css">
+</head>
+<body>
+    <!-- Optional: <header> represents introductory content about the website -->
+    <header>
+        <h1>HTML and CSS Quick Reference Guide</h1>
+        <p>Learn quickly with this guides!</p>
+    </header>
+    <main>
+        <!-- First Content of the Website -->
+        <section>
+            <h2>HTML Tags</h2>
+            <!-- Article for Headings -->
+            <article>
+                <h3>Headings Tag &lt;h1&gt; to &lt;h6&gt;</h3>
+                <p>Defines headings with different level sizes.</p>
+                <pre>
+<code><!-- Example of the Tag -->
+<b>Code:</b>
+&lt;h1&gt;This is a Heading 1&lt;/h1&gt;
+&lt;h2&gt;This is a Heading 2&lt;/h2&gt;
+&lt;h3&gt;This is a Heading 3&lt;/h3&gt;
+
+<b>Output:</b>
+<h1>This is a Heading 1</h1>
+<h2>This is a Heading 2</h2>
+<h3>This is a Heading 3</h3>
+</code>
+                </pre>
+            </article>
+            <!-- Article for Paragraph -->
+            <article>
+                <h3>Paragraph &lt;p&gt;</h3>
+                <p>Defines a paragraph of text.</p>
+                <pre>
+<code><!-- Example of the Tag -->
+<b>Code:</b>
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+<b>Output:</b>
+This is a paragraph.
+</code>
+                </pre>
+            </article>
+            <!-- Article for Bold Tag -->
+            <article>
+                <h3>Bold Tag &lt;b&gt;</h3>
+                <p>Makes the text bold without indicating importance.</p>
+                <pre>
+<code><!-- Example of the Tag -->
+<b>Code:</b>
+&lt;p&gt;This is a &lt;b&gt;bold&lt;/b&gt; statement.&lt;/p&gt;
+
+<b>Output:</b>
+This is a <b>bold</b> statement.
+</code>
+                </pre>
+            </article>
+            <!-- Article for Strong Tag -->
+            <article>
+                <h3>Strong Tag &lt;strong&gt;</h3>
+                <p>Defines text with strong importance.</p>
+                <pre>
+<code><!-- Example of the Tag -->
+<b>Code:</b>
+&lt;p&gt;&lt;strong&gt;This text is important!&lt;/strong&gt;&lt;/p&gt;
+
+<b>Output:</b>
+<strong>This text is important!</strong>
+</code>
+                </pre>
+            </article>
+            <!-- Article for Italic Tag -->
+            <article>
+                <h3>Italic Tag &lt;i&gt;</h3>
+                <p>Defines text often used to alternate voice or mood, commonly for technical terms.</p>
+                <pre>
+<code><!-- Example of the Tag -->
+<b>Code:</b>
+&lt;p&gt;You are a &lt;i&gt;Selenophile&lt;/i&gt;. A person who loves the moon.&lt;/p&gt;
+
+<b>Output:</b>
+You are a <i>Selenophile</i>. A person who loves the moon.
+</code>
+                </pre>
+            </article>
+            <!-- Article for Emphasized Tag -->
+            <article>
+                <h3>Emphasized Tag &lt;em&gt;</h3>
+                <p>Defines emphasized text usually displayed in italics.</p>
+                <pre>
+<code><!-- Example of the Tag -->
+<b>Code:</b>
+&lt;p&gt;You are &lt;em&gt;late&lt;/em&gt;!&lt;/p&gt;
+
+<b>Output:</b>
+You are <em>late</em>!
+</code>
+                </pre>
+            </article>
+            <!-- Article for Superscript -->
+            <article>
+                <h3>Superscript Tag &lt;sup&gt;</h3>
+                <p>Defines text that appears in smaller font above the normal line.</p>
+                <pre>
+<code><!-- Example of the Tag -->
+<b>Code:</b>
+&lt;p&gt;This is a &lt;sup&gt;superscript&lt;/sup&gt; text.&lt;/p&gt;
+
+<b>Output:</b>
+This is a <sup>superscript</sup> text.
+</code>
+                </pre>
+            </article>
+            <!-- Article for Subscript -->
+            <article>
+                <h3>Subscript Tag &lt;sub&gt;</h3>
+                <p>Defines text that appears in smaller font below the normal line.</p>
+                <pre>
+<code><!-- Example of the Tag -->
+<b>Code:</b>
+&lt;p&gt;This is a &lt;sub&gt;subscript&lt;/sub&gt; text.&lt;/p&gt;
+
+<b>Output:</b>
+This is a <sub>subscript</sub> text.
+</code>
+                </pre>
+            </article>
+            <!-- Article for Anchor -->
+            <article>
+                <h3>Anchor &lt;a&gt;</h3>
+                <p>Defines a hyperlink with the <code>href</code> attribute specifying the URL.</p>
+                <pre>
+<code><!-- Example of the Tag -->
+<b>Code:</b>
+&lt;a href="https://example.com" target="_blank"&gt;Visit Example Website!&lt;/a&gt;
+
+<b>Output:</b>
+<a href="https://example.com" target="_blank">Visit Example Website!</a>
+</code>
+                </pre>
+            </article>
+            <!-- Article for Ordered List -->
+            <article>
+                <h3>Ordered List &lt;ol&gt;</h3>
+                <p>Defines a numerical or alphabetical list.</p>
+                <ul>
+                    <li><b>list-style-type: </b>to change it into a letter or roman.</li>
+                    <li><b>reversed: </b>after &lt;ol&gt; to reverse the order.</li>
+                </ul>
+                <pre>
+<code><!-- Example of the Tag -->
+<b>Code:</b>
+&lt;ol&gt;
+    &lt;li&gt;Red&lt;/li&gt;
+    &lt;li&gt;Yellow&lt;/li&gt;
+    &lt;li&gt;Blue&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/ol&gt;
+<b>Output:</b>
+<ol>
+    <li>Red</li>
+    <li>Yellow</li>
+    <li>Blue</li>
+</ol>
+</code>
+                </pre>
+            </article>
+            <!-- Article for Unordered List -->
+            <article>
+                <h3>Unordered List &lt;ul&gt;</h3>
+                <p>— defines a bulleted list.</p> 
+                <pre>
+<code><!-- Example of the Tag -->
+<b>Code:</b>
+&lt;ul&gt;
+    &lt;li&gt;Red&lt;/li&gt;
+    &lt;li&gt;Yellow&lt;/li&gt;
+    &lt;li&gt;Blue&lt;/li&gt;
+&lt;/ul&gt;
+<b>Output:</b>
+<ul>
+    <li>Red</li>
+    <li>Yellow</li>
+    <li>Blue</li>
+</ul>
+</code>
+                </pre>
+            </article>
+            <!-- Article for List Item -->
+            <article>
+                <h3>List Item &lt;li&gt;</h3>
+                <p>— defines individual items within a list of &lt;ol&gt;, &lt;ul&gt; and &lt;menu&gt;.</p>
+                <p>— you can put <b>value</b> on the first &lt;li&gt; to specify the start value but it is only applicable on &lt;ol&gt;list.</p>
+                <pre>
+<code><!-- Example of the Tag -->
+<b>Code:</b>
+&lt;ol&gt;
+    &lt;li&gt;Coffee&lt;/li&gt;
+    &lt;li&gt;Tea&lt;/li&gt;
+    &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ol&gt;
+<b>Output:</b>
+<ol><li value="100">Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+</ol>
+</code>
+                </pre>
+            </article>
+            <!-- Article for Video Tag -->
+            <article>
+                <h3>Video Tag &lt;video&gt;</h3>
+                <p>— displays video on a webpage.</p>
+                <p>— accepts .mp4, .webm, .ogg</p>
+                <pre>
+<code><!-- Example of the Tag -->
+<b>Code: </b>
+&lt;video controls autoplay muted&gt;
+    &lt;source src="c:\Users\LJ\Desktop\College\2nd Sem\WP\Assessment 1\Chapter 1\C1 Bonus\Depressed Bella.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
+<b>Output: </b>
+<video controls autoplay muted>
+    <source src="Depressed Bella.mp4" type="video/mp4">
+</video>
+</code>
+                </pre>
+            </article>
+            <!-- Article for Image Tag -->
+            <article>
+                <h3>Image Tag &lt;img&gt;</h3>
+                <p>— displays image on a webpage.</p>
+                <p>— accepts .jpg, .png, .gif, .svg, .webp</p>
+                <ul>
+                    <li><b>src: </b>specifies the url.</li>
+                    <li><b>alt: </b>alternative text for the image if the image cannot be displayed.</li>
+                    <li><b>width: </b>sets the width of the image.</li>
+                    <li><b>height: </b>sets the height of the image.</li>
+                </ul>
+                <pre>
+<code><!-- Example of the Tag -->
+<b>Code: </b>
+&lt;img src="https://media1.tenor.com/m/E1y1Afk6mmYAAAAC/crying-cry.gif" alt="Crying" width="445" height="200"&gt;
+<b>Output: </b>
+<img src="https://media1.tenor.com/m/E1y1Afk6mmYAAAAC/crying-cry.gif" alt="Crying">
+</code>
+                </pre>
+            </article>
+            <!-- Article for Audio Tag -->
+            <article>
+                <h3>Audio Tag &lt;audio&gt;</h3>
+                <p>— displays audio on a webpage.</p>
+                <p>— accepts .mp3, .wav, .ogg</p>
+                <pre>
+<code><!-- Example of the Tag -->
+<b>Code: </b>
+&lt;audio controls&gt;
+    &lt;source src="c:\Users\LJ\Desktop\College\2nd Sem\WP\Assessment 1\Chapter 1\C1 Bonus\RPWT Song.mp3" type="audio/mpeg"&gt;
+&lt;/audio&gt;
+<b>Output: </b>
+<audio controls>
+    <source src="RPWT Song.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+</code>
+                </pre>
+            </article>
+            <!-- Article for Single Line Break -->
+            <article>
+                <h3>Single Line Break &lt;br&gt;</h3>
+                <p>— a single line break that has no end tag and is useful in writing or addressing poem/s.</p>
+                <pre>
+<code><!-- Example of the Tag -->
+<b>Code:</b>
+&lt;p&gt;roses are red,&lt;br&gt;violets are blue&lt;br&gt;I want to be with you,&lt;br&gt;will you let me?&lt;/p&gt;
+<b>Output:</b>
+roses are red,<br>violets are blue<br>I want to be with you,<br>will you let me?
+</code>
+                </pre>
+            </article>
+            <!-- Article for Computer Code -->
+            <article>
+                <h3>Computer Code &lt;code&gt;</h3>
+                <p>— defines a content that is usually displayed in the browser in a monospace font.</p>
+                <pre>
+<code><!-- Example of the Tag -->
+<b>Code:</b>
+The HTML &lt;code style="font-family: Times New Roman; color: crimson"&gt;&lt;b&gt;button&lt;/b&gt;&lt;/code&gt; tag defines a clickable button.
+<b>Output:</b>
+The HTML <code style="font-family: Times New Roman; color: crimson"><b>button</b></code> tag defines a clickable button.
+</code>
+                </pre>
+            </article>
+            <!-- Article for Button Tag -->
+            <article>
+                <h3>Button Tag &lt;button&gt;</h3>
+                <p>— defines a clickable button</p>
+                <pre>
+<code><!-- Example of the Tag -->
+<b>Code:</b> 
+&lt;button type="button"&gt;onclick="alert('Hello World!')"&gt;Click Me!&lt;/button&gt;
+<b>Output:</b> 
+<button type="button" onclick="alert('Hello world!')">Click Me!</button>
+</code>
+                </pre>
+            </article>
+        </section>
+        <!-- Second Content of the Website -->
+        <section>
+            <h2>CSS Properties</h2>
+            
+            <!-- Article for External Style Sheet -->
+            <article>
+                <h3>External Style Sheet</h3>
+                <p>— defines a style using a <b>.css</b> file.</p>
+                <pre>
+<code><!-- Example of the Property-->
+<b>Code:</b>
+&lt;head&gt;
+    &lt;link rel="stylesheet" type="text/css" href="styles.css"&gt;
+&lt;/head&gt;
+<b>Code:</b>
+p { font-family: Calibri; }
+<b>Output:</b>
+<p style="font-family: Calibri;">Hello! Enjoy studying!</p>
+</code>
+                </pre>
+            </article>
+            <!-- Article for Internal Style Sheet -->
+            <article>
+                <h3>Internal Style Sheet</h3>
+                <p>— applies the styles on the same HTML file.</p>
+                <pre>
+<code><!-- Example of the Property-->
+<b>Code:</b>
+&lt;head&gt;
+    &lt;style&gt;
+        h1 { 
+            color: blue; 
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+</code>
+                </pre>
+            </article><!-- Article for Inline Style Sheet -->
+            <article>
+                <h3>Inline Style Sheet</h3>
+                <p>— styles elements directly in the tag.</p>
+                <pre>
+<code><!-- Example of the Property-->
+<b>Code:</b>
+&lt;h1 style="color: blue;"&gt;Hello World!&lt;/h1&gt;
+<b>Output:</b>
+<h1 style="color: blue;">Hello World!</h1>
+</code>
+                </pre>
+            </article>
+            <!-- Article for Color -->
+            <article>
+                <h3>Color</h3>
+                <p>— sets the text color.</p>
+                <ul>
+                    <li><b>values:</b> color names, RGB, HEX, HSL, RGBA, HSLA.</li>
+                </ul>
+                <pre>
+<code><!-- Example of the Property-->
+<b>Code:</b>
+selector { color: value; }
+<b>Code:</b>
+&lt;style&gt;
+    div.a {
+        color: #a30a0a; 
+    }
+&lt;style&gt;
+&lt;div class="a"&gt; I see RED! RED! Oh Red!&lt;/div&gt;
+<b>Output:</b>
+<div class="a"> I see RED! RED! Oh Red!</div>
+</code>
+                </pre>
+            </article>
+            <!-- Article for Line Height -->
+            <article>
+                <h3>Line Height</h3>
+                <p>— defines the height of per line.</p>
+                <pre>
+<code><!-- Example of the Property-->
+<b>Code:</b>
+&lt;style&gt;
+    div.b {
+        line-height: 30px;
+    }
+&lt;/style&gt;  
+&lt;div class="b"&gt; This is a paragraph with a specified line-height.&lt;br&gt;
+    The line height is here set to 10 pixels.&lt;/div&gt;
+<b>Output:</b>
+<div class="b">This is a paragraph with a specified line-height.<br>
+    The line height is here set to 10 pixels.</div>
+</code>
+                </pre>
+            </article><!-- Article for Word Spacing -->
+            <article>
+                <h3>Word Spacing</h3>
+                <p>— increases or decreases the spaces between words.</p>
+                <ul>
+                    <li><b>normal:</b> normal space.</li>
+                    <li><b>length:</b> px, pt, cm, em, etc.</li>
+                    <li><b>initial:</b> the spaces is on default.</li>
+                    <li><b>inherit:</b> inherits its parent elements.</li>
+                </ul>
+                <pre>
+<code><!-- Example of the Property-->
+<b>Code:</b>
+&lt;style&gt;
+    div.c {
+        word-spacing: 30px;
+    }
+&lt;/style&gt;  
+&lt;div class="c"&gt; This is a paragraph with a specified word spacing.&lt;/div&gt;
+<b>Output:</b>
+<div class="c">This is a paragraph with a specified word spacing.</div>
+</code>
+                </pre>
+            </article>
+            <!-- Article for Text Alignment -->
+            <article>
+                <h3>Text Alignment</h3>
+                <p>— alignx text horizontally.</p>
+                <ul>
+                    <li><b>values:</b> auto, cover, contain or pixel/percentage values.</li>
+                </ul>
+                <pre>
+<code><!-- Example of the Property-->
+<b>Code:</b>
+selector { text-align: value; }
+<b>Code:</b>
+&lt;style&gt;
+    div.d { 
+        text-align: center; 
+    }
+&lt;style&gt;
+&lt;div class="d"&gt;I'm in the Middle of the Page!&lt;/div&gt;
+<b>Output:</b>
+<div class="d">I'm in the Middle of the Page!</div>
+</code>
+                </pre>
+            </article>
+            <!-- Article for Font -->
+            <article>
+                <h3>Font</h3>
+                <p>— use a correct type of font that's pleasing in the eyes of the audience or readers.</p>
+                <pre>
+<code><!-- Example of the Property-->
+<b>Code:</b>
+&lt;style&gt;
+    div.e { 
+        font-family: Courier New; 
+    }
+&lt;style&gt;
+&lt;div class="e"&gt;Courier New font&lt;/div&gt;
+<b>Output:</b>
+<div class="e">Courier New font</div>
+</code>
+                </pre>
+            </article>
+            <!-- Article for White Space -->
+            <article>
+                <h3>White Space</h3>
+                <p>— specifies how white-space inside an elemenet is handled.</p>
+                <ul>
+                    <li><b>nowrap:</b> text will never wrap to the next line</li>
+                    <li><b>normal:</b> text will collapse into a single whitespace.</li>
+                    <li><b>pre:</b> text will only wrap on line breaks.</li>
+                </ul>
+                <pre>
+<code><!-- Example of the Property-->
+<b>Code:</b>
+&lt;style&gt;
+    div.f { 
+        white-space: pre; 
+    }
+&lt;style&gt;
+&lt;div class="f"&gt;This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.&lt;/div&gt;
+<b>Output:</b>
+<div class="f">This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.</div>
+</code>
+                </pre>
+            </article>
+            <!-- Article for Padding -->
+            <article>
+                <h3>Padding</h3>
+                <p>— creates a space around an element's content that's inside the border.</p>   
+                <ul>    
+                    <li><b>length:</b> px, pt, cm, etc</li>
+                    <li><b>%:</b> specifies a margin in % of the width of the containing element.</li>
+                    <li><b>inherit:</b> specifies that the margin should be inherited from the parent element.</li>
+                </ul>
+                <pre>
+<code><!-- Example of the Property-->
+<b>Code:</b>
+&lt;style&gt;
+    div.g {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-right: 50px;
+        padding-left: 80px;
+    }
+&lt;/style&gt;
+&lt;div class="g"&gt;Hey! I'm padding!&lt;/div&gt;
+<b>Output:</b>
+<div class="g">Hey! I'm padding!</div>
+</code>
+                </pre>
+            </article>
+            <!-- Article for Margin -->
+            <article>
+                <h3>Margin</h3>
+                <p>— used to create a space around the element</p>
+                <ul>
+                    <li><b>collapse:</b> used to put into a single margin only.</li>
+                    <li><b>auto:</b> browser calculates the margin</li>
+                    <li><b>length:</b> px, pt, cm, etc</li>
+                    <li><b>%:</b> specifies a margin in % of the width of the containing element.</li>
+                    <li><b>inherit:</b> specifies that the margin should be inherited from the parent element.</li>
+                </ul>
+                <pre>
+<code><!-- Example of the Property-->
+<b>Code:</b>
+&lt;style&gt;
+    div.h {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+    }
+&lt;/style&gt;
+&lt;div class="h"&gt;Hey! I'm your margin!&lt;/div&gt;
+<b>Output:</b>
+<div class="h">Hey! I'm your margin!</div>
+</code>
+                </pre>
+            </article>
+            <!-- Article for Border -->
+            <article>
+                <h3>Border</h3>
+                <p>— allows the programer to specify the style, width and color.</p>
+                <pre>
+<code><!-- Example of the Property-->
+<b>Code:</b>
+&lt;style&gt;
+p.solid { border-style: solid; }
+&lt;/style&gt;
+&lt;p class="solid"&gt;A solid border.&lt;/p&gt;
+<b>Output:</b>
+<p class="solid">A solid border.</p>
+</code>
+                </pre>
+            </article>
+            <!-- Article for Outline -->
+            <article>
+                <h3>Outline</h3>
+                <p>— defines a line drawn outside the element's border to make it stand out.</p>
+                <ul>
+                    <li><b>outline-style:</b> dotted, dashed, solid, double, ridge and more</li>
+                    <li><b>outline-color:</b> set the color of the outline.</li>
+                    <li><b>outline-offset:</b> adds space between an outline and the border.</li>
+                    <li><b>outline-width:</b> thin, medium, thick or a specific size.</li>
+                </ul>
+                <pre>
+<code><!-- Example of the Property-->
+<b>Code:</b>
+&lt;style&gt;
+    div.i {
+        border: 1px solid black;
+        outline-style: solid;
+        outline-color: red;
+        outline-width: 10px;
+        outline-offset: 5px;
+    }
+&lt;/style&gt;
+&lt;div class="i"&gt;A thin outline.&lt;/div&gt;
+<b>Output:</b>
+</style>
+<div class="i">A thin outline.</div>
+</code>
+                </pre>
+            </article>
+            <!-- Article for Background Size -->
+            <article>
+                <h3>Background Size</h3>
+                <p>— controls the size of the background image.</p>
+                <ul>
+                    <li><b>Values:</b> auto, cover, contain or pixel/percentage values.</li>
+                </ul>
+                <pre>
+<code><!-- Example of the Property-->
+<b>Code:</b>
+selector { background-size: value; }
+<b>Code:</b>
+div { background-auto: cover; }
+</code>
+                </pre>
+            </article>
+            <!-- Article for Background Position -->
+            <article>
+                <h3>Background Position</h3>
+                <p>— defines the position of the background image.</p>
+                <ul>
+                    <li><b>Keywords:</b> top, right, center, bottom, left.</li>
+                    <li><b>Percentage:</b> horizontal and vertical positions.</li>
+                    <li><b>Pixels:</b> size of the image.</li>
+                </ul>
+                <pre>
+<code><!-- Example of the Property-->
+<b>Code:</b>
+selector { background-position: value; }
+<b>Code:</b>
+div { background-position: center center;}
+</code>
+                </pre>
+            </article>
+            <!-- Article for Table Layout -->
+            <article>
+                <h3>Table Layout</h3>
+                <p>— defines the algorithm used to lay out table cells, rows, and columns.</p>
+                <pre>
+<code><!-- Example of the Property-->
+<b>Code:</b>
+&lt;style&gt;
+    div.j {
+        table-layout: auto;
+        border: 1px solid black;
+        width: 180px;
+    }
+    th {
+        border: 1px solid black;
+    }
+&lt;/style&gt;
+&lt;table class="j"&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Company&lt;/th&gt;
+        &lt;th&gt;Contract&lt;/th&gt;
+        &lt;th&gt;Country&lt;/th&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+<b>Output:</b>
+<table class="j">
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+</table>
+</code>
+                </pre>
+            </article><!-- Article for Rotate -->
+            <article>
+                <h3>Rotate</h3>
+                <p>— rotates an element around x-axis or y-axis.</p>
+                <pre>
+<code><!-- Example of the Property-->
+<b>Code:</b>
+&lt;style&gt;
+    div.k {
+        height: 50px;
+        width: 65px;
+        background-color: red;
+        color: white;
+        rotate: 30deg;
+    }
+&lt;/style&gt;
+&lt;div class="k"&gt;I'm cute!&lt;/div&gt;
+<b>Output:</b>
+
+<div class="k">I'm cute!</div>
+</code>
+                </pre>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Quick Reference Guide</p>
+    </footer>
+</body>
+</html>
