@@ -1,0 +1,92 @@
+/* Style for the header */
+header {
+    background-color: #17072b;
+    color: #FFFFFF;
+    padding: 1em;
+    text-align: center;
+}
+
+/* General body styling */
+body {
+    font-family: Arial;
+    font-size: 400;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #000000;
+}
+
+/* Style for the main */
+main {
+    padding: 2em;
+}
+
+/* Style for the header */
+h1 {
+    font-family: Tahoma;
+    font-size: 700;
+    text-decoration: underline;
+}
+
+/* Style for the left information */
+.margin {
+    margin-left: 1em;
+}
+
+/* Style for the subheader */
+h2 {
+    margin-top: 1em;
+    color: black;
+}
+
+/* Style for the nav bar */
+.navbar {
+    background-color: #17072b;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    top: 0;
+}
+
+/* Style for the information inside the nav bar */
+.navbar a {
+    color: #fff;
+    font-size: 400;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+/* Style for the information on the right */
+aside {
+    color: #FFFFFF;
+    width: 35.5%;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-left: 1px;
+    float: right;
+    background-color: #172d67;
+
+    /* Style for the image */
+    img {
+        width: 48%;
+        height: 250px;
+        margin-bottom: 1em;
+    }
+}
+
+img {
+    width: 62%;
+    height: 315px;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin-top: 1em;
+}
