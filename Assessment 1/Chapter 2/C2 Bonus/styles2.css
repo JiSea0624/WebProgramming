@@ -1,0 +1,78 @@
+/* General body styling */
+body {
+    font-family: Arial;
+    line-height: 1.6;
+    margin: 0;
+    padding: 2em;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Style for the sentence */
+pre {
+    font-size: 15px;
+    font-family: Arial;
+    background-color: rgb(255, 238, 238);
+    border: 4px solid #af4c4c;
+    border-style: double;
+    border-radius: 5px;
+    padding: 1em;
+    overflow-x: auto;
+    white-space: pre-wrap;
+}
+
+/* Style for the nav bar */
+.menu {
+  background-color: #c21b1b;
+  color: #fff;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  position: sticky;
+  top: 0;
+}
+
+/* Style for the information inside the nav bar */
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 15px; 
+  font-weight: bold;
+}
+
+/* Effects for the information inside the nav bar */
+.menu a:hover {
+  background-color: #710c0c;
+  color: white;
+}
+
+/* Style for the header */
+h1 {
+    text-align: center;
+}
+
+/* Style for the button */
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+/* Color of the buttons */
+.button1, .button2, .button3 {
+  background-color: #c21b1b;
+}
+
+/* Effect of the buttons */
+.button1:hover, .button2:hover, .button3:hover {
+    background-color: #710c0c;
+    color: white;
+}
