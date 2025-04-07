@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Use meta to sets the character & ensures that all devices will be rendered-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Create a title for the website name when run -->
+    <title>Chapter 6 Exercise - Petrol Calculator</title>
+    <!-- Link the External Stylesheet to your html file -->
+    <link rel="stylesheet" href="External CSS/styles6.css">
+</head>
+<body>
+    <!-- Main container for the calculator -->
+    <div class="calculator-container">
+        <!-- Put the title of the website in h1 -->
+        <h1>Petrol Cost Calculator</h1>
+    
+        <!-- Label for the cost of petrol -->
+        <label for="petrol-cost">Cost of Petrol (per liter):</label>
+        <input type="number" placeholder="Enter the amount" id="petrol-cost" step="0.01" value="">
+
+        <!-- Label for the liters purchased -->
+        <label for="liters">Liters Purchased:</label>
+        <input type="number" placeholder="Enter the amount" id="liters" step="0.01" value="">
+
+
+        <!-- Button to calculate -->
+        <button id="calculate-btn">Calculate</button>
+
+        <!-- Paragraph -->
+        <p id="total-cost">Total Cost: $0.00</p>
+    </div>
+
+    <!-- Link the External Javascript to your html file -->
+    <script src="External CSS/index.js"></script>
+</body>
+</html>

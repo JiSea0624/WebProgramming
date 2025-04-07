@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Use meta to sets the character & ensures that all devices will be rendered-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Create a title for the website name when run -->
+    <title>Chapter 6 Bonus - RGB Colour Guessing Game</title>
+    <!-- Link the External Stylesheet to your html file -->
+    <link rel="stylesheet" href="External CSS/styles6.1.css">
+</head>
+<body>
+    <!-- Container for the game -->
+    <div class="game-container">
+        <!-- Header section displaying the game title -->
+        <header>
+            <h1>RGB Colour Guessing Game</h1>
+        </header>
+
+        <!-- Optional to put a start button before playing -->
+        <div id="start-screen" class="start-screen">
+            <button id="start-btn">Start Game</button>
+        </div>
+
+        <!-- RGB value -->
+        <div id="rgb-value" class="rgb-display">
+            RGB(?, ?, ?)
+        </div>
+
+        <!-- Color option buttons in CSS and Javascript-->
+        <div id="color-options" class="color-options"></div>
+
+        <!-- Game stats -->
+        <div id="game-stats" class="game-stats">
+            <p id="lives">Lives: 3</p>
+            <p id="score">Score: 0</p>
+        </div>
+
+        <!-- Replay -->
+        <div id="game-over" class="game-over hidden">
+            <p>Game Over! Your final score: <span id="final-score">0</span></p>
+            <button id="replay-btn">Play Again</button>
+        </div>
+    </div>
+
+    <!-- Link the External Javascript to your html file -->
+    <script src="External CSS/index.1.js"></script>
+</body>
+</html>
