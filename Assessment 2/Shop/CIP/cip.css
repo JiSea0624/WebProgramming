@@ -1,0 +1,277 @@
+/* General body styling */
+body {
+    font-family: Arial;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffface;
+}
+
+/* Style for the nav bar */
+.menu {
+    background-color: #2E7FA2;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style for the logo image in the nav bar */
+.logo, .cart {
+    height: 40px;
+    width: auto;
+}
+
+/* Style for the cart image in the nav bar */
+.cart {
+    height: 25px;
+}
+
+/* Style for the information inside the nav bar */
+.menu a {
+    color: #B9D5E1;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+/* Effect for the nav bar when hovered */
+.menu a:hover {
+    background-color: #225e78;
+    border-radius: 4px;
+}
+
+/* Style for the search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the input in the search bar */
+.search-bar input[type="text"] {
+    background-color: #B9D5E1;
+    border: 1px solid #B9D5E1;
+    color: #196180;
+    padding: 5px;
+    border-radius: 4px;
+    margin-right: 5px;
+    outline: none;
+}
+
+/* Style for the placeholder in the search button */
+.search-bar input::placeholder {
+    color: #196180;
+    opacity: 0.8;
+}
+
+/* Style for the search bar button */
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #196180;
+    color: #B9D5E1;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Effect for the search bar when hovered */
+.search-bar button:hover {
+    background-color: #063245;
+    color: #8dc5dc;
+}
+
+/* Style for the number beside the cart */
+.cart-count {
+    position: absolute;
+    top: 15px; 
+    right: 3%; 
+    color: white;
+    font-size: 14px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Outer Border */
+div.border1 {
+    display: flex;
+    flex-direction: row;
+    background: none;
+    height: auto; 
+    width: 80%;
+    margin: 2em auto; 
+    padding: 2em;
+    padding-right: 0;
+    border-radius: 20px;
+    align-items: flex-start;
+}
+
+/* Style for the image in the border */
+div.border1 img {
+    width: 47%;
+    height: auto; 
+}
+
+/* Style for the information container */
+.info-section {
+    flex: 1;
+    color: #063c54;
+    width: 75%;
+    float: right;
+}
+
+/* Style for the content on the right */
+.info-content {
+    padding-left: 2em;
+    text-align: center;
+    width: 98%; 
+}
+
+/* Style for the information header */
+.info-content h2 {
+    font-size: 27px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Style for the paragraph */
+.info-content p {
+    padding-right: 3em;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.info {
+    flex: 1;
+    padding: 20px;
+    background-color: #B9D5E1;
+    border-radius: 20px;
+}
+
+.info h1 {
+    font-size: 20px;
+    text-align: center;
+    color: #063c54;
+}
+
+.details {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.actions {
+    margin-top: 20px;
+    display: flex;
+    align-self: flex-start;
+    gap: 10px;
+}
+
+.actions button, .back-link {
+    background-color: #2E7FA2;
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.actions button:hover, .back-link:hover {
+    background-color: #115673;
+}
+
+/* Notification styling */
+.notification {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+}
+
+.notification h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.notification a {
+    background-color: #063245;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.notification button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.notification button:hover {
+    background-color: #357ab8;
+}
+
+.notification .close {
+    position: absolute;
+    color: black;
+    top: 10px;
+    right: 2px;
+    padding: none;
+    font-size: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.notification .close:hover {
+    background: none; 
+    color: black; 
+    cursor: pointer; 
+}
+
+.notification-message {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #357ab8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    animation: fadeInOut 3s;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; transform: translateY(10px); }
+    10%, 90% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(10px); }
+}
+
+
+.customize-link {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.customize-link:hover {
+    background-color: #357ab8;
+}

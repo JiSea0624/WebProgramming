@@ -1,0 +1,225 @@
+/* General body styling */
+body {
+    font-family: Arial;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffface;
+}
+
+/* Style for the nav bar */
+.menu {
+    background-color: #2E7FA2;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style for the logo image in the nav bar */
+.logo, .cart {
+    height: 40px;
+    width: auto;
+}
+
+/* Style for the cart image in the nav bar */
+.cart {
+    height: 25px;
+}
+
+/* Style for the information inside the nav bar */
+.menu a {
+    color: #B9D5E1;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+/* Effect for the nav bar when hovered */
+.menu a:hover {
+    background-color: #225e78;
+    border-radius: 4px;
+}
+
+/* Style for the search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the input in the search bar */
+.search-bar input[type="text"] {
+    background-color: #B9D5E1;
+    border: 1px solid #B9D5E1;
+    color: #196180;
+    padding: 5px;
+    border-radius: 4px;
+    margin-right: 5px;
+    outline: none;
+}
+
+/* Style for the placeholder in the search button */
+.search-bar input::placeholder {
+    color: #196180;
+    opacity: 0.8;
+}
+
+/* Style for the search bar button */
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #196180;
+    color: #B9D5E1;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Effect for the search bar when hovered */
+.search-bar button:hover {
+    background-color: #063245;
+    color: #8dc5dc;
+}
+
+/* Style for the number beside the cart */
+.cart-count {
+    position: absolute;
+    top: 15px; 
+    right: 3%; 
+    color: white;
+    font-size: 14px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Style for the header */
+h1 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #205E79;
+}
+ 
+/* Outer Border */
+div.border1, div.border2 {
+    display: flex;
+    flex-direction: row;
+    background: #B9D5E1;
+    height: auto; 
+    width: 77%;
+    margin: 2em auto; 
+    padding: 2em;
+    padding-right: 0;
+    border-radius: 20px;
+    align-items: flex-start;
+}
+
+/* Style for the image in the border */
+div.border1 img {
+    width: 25%;
+    height: auto; 
+}
+
+/* Style for the information container */
+.info-section {
+    flex: 1;
+    color: #063c54;
+    width: 75%;
+    float: right;
+}
+
+/* Style for the content on the right */
+.info-content {
+    padding-left: 2em;
+    text-align: left;
+    width: 98%; 
+}
+
+/* Style for the information header */
+.info-content h2 {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+/* Style for the paragraph */
+.info-content p {
+    padding-right: 3em;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* Style for the list of items */
+.info-content li {
+    padding-left: 2em;
+    padding-right: 3em;
+    font-size: 20px;
+}
+
+/* Line style*/
+hr {
+    height: 2px; 
+    width: 79%;
+    background-color: #205E79; 
+    margin: 0 auto;
+}
+
+/* Style for the Container */
+.container {
+    height: 2px;
+    width: 10em;
+    background-color: #B9D5E1;
+    border: none;
+    margin: 5px 0;
+}
+
+/* Styles for the Contact */
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: left;
+    background: #447F99;
+    color: #B9D5E1;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* Style for the Follow Us section */
+.follow_us {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+/* Style for the links */
+.infos a, .follow_us a, .contact_us p {
+    color: #B9D5E1;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+/* Style for the hover effect on links */
+.infos a:hover, .follow_us a:hover {
+    color: #B9D5E1;
+    text-decoration: underline;
+}
+
+/* Style for the icon */
+.follow_us img, .contact_us img {
+    width: 40px;
+    height: 40px;
+    filter: sepia(1) saturate(1000%) hue-rotate(190deg) brightness(1.1);
+}
+
+/* Style for the footer */
+footer {
+    background-color: #275A70;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 5px; 
+    margin-top: 0;
+}
