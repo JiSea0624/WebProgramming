@@ -1,0 +1,317 @@
+/* General body styling */
+body {
+    font-family: Arial;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffface;
+}
+
+/* Style for the nav bar */
+.menu {
+    background-color: #2E7FA2;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style for the logo image in the nav bar */
+.logo, .cart {
+    height: 40px;
+    width: auto;
+}
+
+/* Style for the cart image in the nav bar */
+.cart {
+    height: 25px;
+}
+
+/* Style for the information inside the nav bar */
+.menu a {
+    color: #B9D5E1;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+/* Effect for the nav bar when hovered */
+.menu a:hover {
+    background-color: #225e78;
+    border-radius: 4px;
+}
+
+/* Style for the search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the input in the search bar */
+.search-bar input[type="text"] {
+    background-color: #B9D5E1;
+    border: 1px solid #B9D5E1;
+    color: #196180;
+    padding: 5px;
+    border-radius: 4px;
+    margin-right: 5px;
+    outline: none;
+}
+
+/* Style for the placeholder in the search button */
+.search-bar input::placeholder {
+    color: #196180;
+    opacity: 0.8;
+}
+
+/* Style for the search bar button */
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #196180;
+    color: #B9D5E1;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Effect for the search bar when hovered */
+.search-bar button:hover {
+    background-color: #063245;
+    color: #8dc5dc;
+}
+
+/* Style for the number beside the cart */
+.cart-count {
+  position: absolute;
+  top: 15px; 
+  right: 3%; 
+  color: white;
+  font-size: 14px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Container for the whole setup */
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    background: none;
+    width: 100%;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+/* Setup for the Left Side */
+.left {
+    flex: 3;
+    background: none;
+}
+
+/* Setup for the Right Side */
+.right {
+    flex: 1; 
+    min-width: 280px; 
+    background: #B9D5E1;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow-x: hidden;
+}
+
+.box1 {
+    font-size: 10px;
+    display: flex;
+}
+
+/* Style for Icons inside the container */
+.checkout_pics, .checkout_pics1 {
+    width: 30px;
+    height: 30px;
+    filter: sepia(1) saturate(1000%) hue-rotate(190deg) brightness(0.90);
+}
+
+/* Style for Icons inside the container */
+.checkout_pics1 {
+    width: 20px;
+    height: 20px;
+}
+
+/* Style for Icons inside the container */
+.checkout_pics2 {
+    width: 20px;
+    height: 20px;
+}
+
+/* Style for the header */
+h1 {
+    font-size: 50px;
+    margin: 2%;
+    padding-left: 5%;
+    text-align: left;
+    color: #755c12;
+}
+
+/* Style for the header */
+h2 {
+    font-size: 30px;
+    margin: 2%;
+    padding: 5%;
+    text-align: center;
+    color: #205E79;
+}
+
+/* Paragraph Style in the right side*/
+.sum {
+    font-size: 15px;
+    padding: 0 10%;
+    line-height: 1.8rem;
+    text-align: left;
+    color: #205E79;
+    font-weight: bold;
+}
+
+/* Paragraph Style in the right side*/
+.sum1 {
+    font-size: 15px;
+    padding: 0 10%;
+    line-height: 1.5;
+    text-align: left;
+    width: 100%;
+    color: #205E79;
+    font-weight: bold;
+}
+
+/* Line style */
+hr {
+    height: 2px; 
+    width: 85%;
+    background-color: #205E79; 
+}
+
+.form-container {
+    background-color: #edd89c;
+    padding: 20px 30px;
+    margin: 4.5% 7%;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.form-container h2 {
+    text-align: left;
+    color: #755c12;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #755c12;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #755c12;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #004080;
+}
+
+.form-group input[required] {
+    background-color: #f9f9f9;    
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+button {
+    background-color: #91772b;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #755c12;
+}
+
+/* Line style */
+.right_line {
+    height: 3px; 
+    width: 85%;
+    background-color: #205E79; 
+}
+
+/* Style for the code bar */
+.code-bar {
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+/* Style for the input in the code bar */
+.code-bar input[type="text"] {
+    background-color: transparent;
+    border: 2px solid #205E79;
+    color: #205E79;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 5px 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+/* Style for the placeholder in the code button */
+.code-bar input::placeholder {
+    color: #205E79;
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+/* Style for the code bar button */
+.code-bar button {
+    padding: 5px;
+    border: none;
+    background-color: #205E79;
+    color: #B9D5E1;
+    margin: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* Effect for the code bar when hovered */
+.code-bar button:hover {
+    background-color: #063245;
+    color: #8dc5dc;
+}
+
+/* Style for Footer */
+footer {
+    background-color: #275A70;
+    color: #FFF;
+    text-align: center;
+}
