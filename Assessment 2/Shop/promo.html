@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Use meta to sets the character & ensures that all devices will be rendered-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Create a title for the website name when run -->
+    <title>Promo</title>
+    <!-- Link the External Stylesheet to your html file -->
+    <link rel="stylesheet" type="text/css" href="shop.css">
+</head>
+<body>
+    <header>
+        <!-- Create the navigation bar -->
+        <nav class="menu">
+            <!-- Insert the logo of the shop -->
+            <img src="Pictures\fioreca.png" alt="Shop Logo" class="logo">
+            <a href="Assessment 2.html">Home</a>
+            <a href="Shop\shop.html">Shop</a>
+            <a href="review.html">Review</a>
+            <a href="about us.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <!-- Insert a functionable search button -->
+            <form class="search-bar" id="searchForm">
+                <input type="text" id="searchInput" placeholder="Search..." required>
+                <button type="submit">Search</button>
+            </form>
+            <!-- Insert the shopping bag -->
+            <a href="Shop\Checkout\checkout.html"><img src="Pictures\cart.png" alt="Shopping Cart" class="cart"></a>
+            <span id="cartCount" class="cart-count">0</span>
+        </nav>
+    </header>
+    <main>
+        <!-- Welcome Banner -->
+        <section>
+            <div class="picture">
+                <div class="overlay"></div>
+                <h1>Welcome to Fioreca</h1>
+            </div>
+        </section>
+        <br>
+        <hr>
+        <section>
+            <!-- Navigation bar with a centered horizontal line -->
+            <div class="nav-container">
+                <nav class="menu2">
+                    <a href="shop.html">All</a>
+                    <a href="promo.html"><img src="Pictures\promo.png" alt="Thunder" class="logo2">Promo</a>
+                    <a href="best sellers.html"><img src="Pictures\best sellers.png" alt="Like" class="logo2">Best Sellers</a>
+                    <a href="customize.html"><img src="Pictures\customize.png" alt="Star" class="logo2">Customize</a>
+                    <a href="new sales.html"><img src="Pictures\new sales.png" alt="New" class="logo2">New Sales</a>
+                </nav>
+            </div>
+        </section>
+        <!-- For Promo in the Shop Section -->
+        <section>
+            <!-- 1st and Last Horizontal Line in the All Section -->
+            <div class="shop_container">
+                <div class="border1">
+                    <div class="info-section">
+                        <div class="info-content">
+                            <img src="Pictures\MDS.jpg" alt="Mother's Day Special">
+                            <h2>Mother's Day Special</h2>
+                            <a href="Shop\CIP\mds.html" class="info-button">Check Info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="border1">
+                    <div class="info-section">
+                        <div class="info-content">
+                            <img src="Pictures\VDS.jpg" alt="Valentine's Day Special">
+                            <h2>Valentine's Day Special</h2>
+                            <a href="Shop\CIP\vds.html" class="info-button">Check Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Link the External Javascript to your html file -->
+        <script src="shop.js"></script>
+    </main>
+    <footer>
+        <!-- Social Media's Footer -->
+        <div class="contacts">
+            <div class="infos">
+                <h3>FIORECA</h3>
+                <hr class="container">
+                <a href="Footer\sdp.html">Shipping and Delivery Policy</a>
+                <a href="Footer\accessibility.html">Accessibility Statement</a>
+                <a href="Footer\ipn.html">Intellectual Property Notice</a>
+                <a href="Footer\social.html">Social Responsibility</a>
+                <a href="Footer\disclaimer.html">Disclaimer</a>
+            </div>
+            <div class="contact_us">
+                <h3>CONTACT US</h3>
+                <hr class="container">
+                <p><img src="Footer\Soc Meds\Gmail.png" alt="Gmail Logo">fiorecabloom@gmail.com</p>
+                <p><img src="Footer\Soc Meds\WhatsApp.png" alt="WhatsApp Logo">+971 52 644 8966</p>
+            </div>
+            <div class="follow_us">
+                <h3>FOLLOW US</h3>
+                <hr class="container">
+                <a href="https://www.facebook.com/profile.php?id=61551668026336" target="_blank" alt="Facebook Logo">
+                    <img src="Footer\Soc Meds\Facebook.png" alt="Facebook Logo"> Fioreca</a>
+                <a href="https://www.instagram.com/fioreca.bloom/" target="_blank" alt="Instagram Logo">
+                    <img src="Footer\Soc Meds\Instagram.png" alt="Instagram Logo"> @fioreca.bloom</a>
+                <a href="https://www.tiktok.com/@fioreca.bloom" target="_blank" alt="TikTok Logo">
+                    <img src="Footer\Soc Meds\Tiktok.png" alt="TikTok Logo"> @fioreca.bloom</a>
+            </div>
+        </div>
+        <p>&copy; 2025 Fioreca. All Rights Reserved</p>
+    </footer>
+</body>
+</html>

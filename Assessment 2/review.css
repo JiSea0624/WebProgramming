@@ -1,0 +1,226 @@
+/* General body styling */
+body {
+    font-family: Arial;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffface;
+}
+
+/* Style for the nav bar */
+.menu {
+    background-color: #2E7FA2;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style for the logo image in the nav bar */
+.logo, .cart {
+    height: 40px;
+    width: auto;
+}
+
+/* Style for the cart image in the nav bar */
+.cart {
+    height: 25px;
+}
+
+/* Style for the information inside the nav bar */
+.menu a {
+    color: #B9D5E1;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+/* Effect for the nav bar when hovered */
+.menu a:hover {
+    background-color: #225e78;
+    border-radius: 4px;
+}
+
+/* Style for the search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the input in the search bar */
+.search-bar input[type="text"] {
+    background-color: #B9D5E1;
+    border: 1px solid #B9D5E1;
+    color: #196180;
+    padding: 5px;
+    border-radius: 4px;
+    margin-right: 5px;
+    outline: none;
+}
+
+/* Style for the placeholder in the search button */
+.search-bar input::placeholder {
+    color: #196180;
+    opacity: 0.8;
+}
+
+/* Style for the search bar button */
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #196180;
+    color: #B9D5E1;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Effect for the search bar when hovered */
+.search-bar button:hover {
+    background-color: #063245;
+    color: #8dc5dc;
+}
+
+/* Style for the number beside the cart */
+.cart-count {
+    position: absolute;
+    top: 15px; 
+    right: 3%; 
+    color: white;
+    font-size: 14px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Style for the Comment Section */
+.comment-section {
+    max-width: 50%;
+    margin: 20px auto; 
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the forms in the Comment section */
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Style for the Label in the Comment Section */
+.comment-form label {
+    font-size: 1rem;
+}
+
+/* Style for the input & textare in the Comment Section */
+.comment-form input, .comment-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for the Button in the Comment Section */
+.comment-form button {
+    padding: 10px 20px;
+    width: 20%;
+    background-color: #d1ac34;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Effect for the Button in the Comment Section */
+.comment-form button:hover {
+    background-color: #a57e07;
+}
+
+/* Style for the image to be not visible after uploading */
+#image-upload {
+    display: none; /* Hide the actual file input */
+}
+
+/* Style for the Uploading of Image in the Comment Section */
+.upload-label {
+    cursor: pointer;
+    color: #d1ac34;
+}
+
+/* Effect for the Uploading of Image in the Comment Section */
+.upload-label:hover {
+    cursor: pointer;
+    color: #a57e07;
+}
+
+/* Style for the name in Uploading of Image in the Comment Section */
+#image-name {
+    color: #333;
+}
+
+/* Style for the Actual Comment Section */
+.comment {
+    border: 1px solid #ffface;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #ffface;
+}
+
+/* Style for the General Comment Container Section */
+.comment-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ffface;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the Actual Comment Header Section */
+.comment-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #d1ac34;
+    text-align: center;
+}
+
+/* Style for the Comment Header Section */
+.comment-header {
+    align-items: center;
+}
+
+/* Style for the Profile in the Comment Section */
+.profile-info {
+    font-weight: bold;
+}
+
+/* Style for the Timestamp in the Comment Section */
+.timestamp {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+/* Style for the Like Button in the Comment Section */
+.like-button {
+    cursor: pointer;
+    color: #d1ac34;
+}
+
+/* Effect for the Like Button in the Comment Section */
+.like-button:hover {
+    color: #a57e07;
+}
+
+/* Style for the Menu Button in the Comment Section */
+.menu-button {
+    cursor: pointer;
+    color: #b49a4b;
+}
+
+/* Style for separating comments */
+#comments-list hr {
+    border: none; 
+    border-top: 1px solid #ccc; 
+    margin: 10px 0; 
+    width: 100%; 
+}
