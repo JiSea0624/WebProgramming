@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Use meta to sets the character & ensures that all devices will be rendered-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Create a title for the website name when run -->
+    <title>Dahlia</title>
+    <!-- Link the External Stylesheet to your html file -->
+    <link rel="stylesheet" type="text/css" href="cip.css">
+</head>
+<body>
+    <header>
+        <!-- Create the navigation bar -->
+        <nav class="menu">
+            <!-- Insert the logo of the shop -->
+            <img src="../Pictures/fioreca.png" alt="Shop Logo" class="logo">
+            <a href="../Nav/Assessment 2.html">Home</a>
+            <a href="../Shop/shop.html">Shop</a>
+            <a href="../Nav/review.html">Review</a>
+            <a href="../Nav/about us.html">About Us</a>
+            <a href="../Nav/contact.html">Contact</a>
+            <!-- Insert a functionable search button -->
+            <form class="search-bar" id="searchForm">
+                <input type="text" id="searchInput" placeholder="Search..." required>
+                <button type="submit">Search</button>
+            </form>
+            <!-- Insert the shopping bag -->
+            <a href="../Checkout/checkout.html"><img src="../Pictures/cart.png" alt="Shopping Cart" class="cart"></a>
+            <span id="cartCount" class="cart-count">0</span>
+        </nav>
+    </header>
+    <main>
+        <!-- Dahlia Informations -->
+        <section>
+          <!-- Outside Border -->
+          <div class="border1">
+              <!-- Picture -->
+              <img src="../Flowers/Dahlia no bg.png" alt="Dahlia Flower">
+              <div class="info-section">
+                <!-- Information about the flower -->
+                  <div class="info-content">
+                      <h2>Dahlia - 30 AED</h2>
+                      <p>The dahlia is a stunning, vibrant flower known for its intricate, layered petals and a wide array of colors. Symbolizing elegance, creativity, and inner strength, dahlias make a striking addition to any bouquet or garden, blooming brilliantly from midsummer to fall.</p>
+                      
+                      <div class="info">
+                          <div class="details">
+                            <strong style="font-size: 24px;">Flower’s Information:</strong><br>
+                            <b>Stems Used: </b>29 stems &#40;leaves included&#41;<br>
+                            <b>Time Used: </b>16 minutes<br>
+                            <b>Note: </b>Open for Customizations<br>
+                          </div>
+                      </div>
+                      <div class="actions">
+                          <a href="../Shop/shop.html" id="backButton" class="back-link">Back</a>
+                          <button id="addToCart">Add to Cart</button>
+                      </div>
+                  </div>
+                  <div class="notification" id="notification">
+                      <button class="close" id="closeNotification">✖</button>
+                      <h2>Would you like to customize your order?</h2>
+                      <div>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3kH-dYEU3iA7Sq32yyvR5LX3pOyRZLJWqNVgsBMHEKA1v_w/viewform?usp=sharing&ouid=114223772954243630023"target="_blank" id="customizeYes" class="customize-link">Yes</a>
+                        <button id="customizeNo">Get it as it is</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- Link the External Javascript to your html file -->
+      <script src="cip.js"></script>
+    </main>
+</body>
+</html>

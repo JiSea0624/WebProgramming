@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Use meta to sets the character & ensures that all devices will be rendered-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Create a title for the website name when run -->
+    <title>Review</title>
+    <!-- Link the External Stylesheet to your html file -->
+    <link rel="stylesheet" type="text/css" href="review.css">
+</head>
+<body>
+    <header>
+        <!-- Create the navigation bar -->
+        <nav class="menu">
+            <!-- Insert the logo of the shop -->
+            <img src="../Pictures/fioreca.png" alt="Shop Logo" class="logo">
+            <a href="Assessment 2.html">Home</a>
+            <a href="../Shop/shop.html">Shop</a>
+            <a href="review.html">Review</a>
+            <a href="about us.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <!-- Insert a functionable search button -->
+            <form class="search-bar" id="searchForm">
+                <input type="text" id="searchInput" placeholder="Search..." required>
+                <button type="submit">Search</button>
+            </form>
+            <!-- Insert the shopping bag -->
+            <a href="../Checkout/checkout.html"><img src="../Pictures/cart.png" alt="Shopping Cart" class="cart"></a>
+            <span id="cartCount" class="cart-count">0</span>
+        </nav>
+    </header>
+    <div class="comment-section">
+        <form class="comment-form" id="comment-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="Enter your name (optional)">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Enter your message" required rows="5" required></textarea>
+            
+            <label for="image-upload" class="upload-label">
+                <span>Upload Image</span>
+                <input type="file" id="image-upload" accept="image/*" onchange="updateImageName()">
+            </label>
+            <span id="image-name">No image uploaded</span>
+
+            <button type="submit">Post Comment</button>
+        </form>
+
+        <h2>Comments</h2>
+        <div class="comment-container">
+            <div id="comments-list"></div>
+        </div>
+    </div>
+    <!-- Link the External Javascript to your html file -->
+    <script src="review.js"></script>
+</body>
+</html>
